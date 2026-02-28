@@ -1,0 +1,40 @@
+
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+
+/* Conteneur principal */
+
+section {
+
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/* Titres */
+
+h1 {
+    margin-bottom: 5px;
+}
+
+
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    color: #3498db;
+}
+
+
+h3 {
+    margin-bottom: 5px;
+}
