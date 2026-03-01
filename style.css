@@ -144,3 +144,34 @@ footer {
     }
 
 }
+
+.language-item {
+cursor: pointer;
+transition: all 0.25s ease;
+position: relative;
+}
+
+
+.language-item:hover {
+color: #4dabf7;
+transform: translateX(4px);
+}
+
+
+/* petit trait discret */
+
+.language-item::after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -2px;
+width: 0;
+height: 1px;
+background: #4dabf7;
+transition: width 0.3s ease;
+}
+
+
+.language-item:hover::after {
+width: 100%;
+}

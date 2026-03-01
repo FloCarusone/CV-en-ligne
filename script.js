@@ -49,13 +49,38 @@ fr: {
 "profile-title": "Profil",
 
 "profile-text":
-"Étudiant en informatique de gestion en école supérieure depuis 2025 je me forme au développement web, aux bases de données et aux outils informatiques professionnels. Sérieux, motivé et curieux, je chercheà développer mes compétences techniques et mon expérience pratique.",
+"Étudiant en informatique de gestion en école supérieure depuis 2025, je me forme au développement web, aux bases de données et aux outils informatiques professionnels. Sérieux, motivé et curieux, je cherche à développer mes compétences techniques et mon expérience pratique.",
 
-"experience-title": "Expériences professionnelles",
+"experience-title": "Expériences professionnelles", 
+"job1-title": "Cridec SA — Employé facturation (2024 - 2025)",
+"job1-task1": "Établissement de factures et notes de crédits",
+"job1-task2": "Contacts clients",
+"job1-task3": "Utilisation d’un ERP",
+
+"job2-title": "Police Militaire — Service long (2023)",
+"job2-task1": "Sécurité d’infrastructures",
+"job2-task2": "Contrôle d’accès",
+"job2-task3": "Utilisation d’Excel",
+
+"job3-title": "CHUV — Stagiaire MPC (2021 - 2022)",
+"job3-task1": "Utilisation de bases de données",
+"job3-task2": "Planification",
+"job3-task3": "Gestion administrative",
+
+"job4-title": "Storexpress Sàrl — Assistant-administratif (2017 - 2024)",
+"job4-task1": "Comptabilité",
+"job4-task2": "Appels clients",
+"job4-task3": "Emission d'offres",
 
 "education-title": "Formations",
+"education1": "Ecole d'informatique de gestion ETML-ES (2025 - présent)",
+"education2": "CFC Employé de commerce + Maturité professionnelle Gymnase de Chamblandes (2018 - 2022)",
 
 "reference-title": "Personne de référence",
+
+"reference-text": "Monsieur Laurent Fontana Responsable administratif & finances, IT & Process Manager 021 866 03 00",
+
+"contact-linkedin-link2": "LinkedIn",
 
 "footer": "© 2026 Florian Carusone"
 
@@ -139,7 +164,9 @@ en: {
 "reference-title": "Reference",
 
 "reference-text":
-"Mr Laurent Fontana Administrative Manager & IT Process Manager",
+"Mr. Laurent Fontana, Administrative & Finance Manager, IT & Process Manager, 021 866 03 00",
+
+"contact-linkedin-link2": "LinkedIn",
 
 "footer": "© 2026 Florian Carusone"
 
@@ -223,9 +250,39 @@ de: {
 "reference-title": "Referenz",
 
 "reference-text":
-"Herr Laurent Fontana Verwaltungsleiter & IT Prozessmanager",
+"Herr Laurent Fontana Verantwortlicher Verwaltungs- und Finanzmanager, IT- und Prozessmanager 021 866 03 00",
+"contact-linkedin-link2": "LinkedIn",
 
 "footer": "© 2026 Florian Carusone"
 
 }
 }
+
+function translate(lang) {
+    localStorage.setItem("language", lang);
+    document.querySelectorAll("[data-i18n]")
+    .forEach(element => {
+        const key = element.dataset.i18n;
+        if (translations[lang][key]) {
+            element.innerText = translations[lang][key];
+        }
+
+    });
+
+}
+
+// ==============================
+// CLICK SUR LES LANGUES
+// ==============================
+
+document.querySelectorAll(".language-item")
+
+.forEach(item => {
+    item.addEventListener("click", () => {
+        const lang = item.dataset.lang;
+        console.log("Langue sélectionnée :", lang);
+        translate(lang);
+    });
+
+});
+
