@@ -46,6 +46,13 @@ fr: {
 
 "lang-de": "🇩🇪 Allemand — B2",
 
+"hobbies-title": "Loisirs",
+
+"hobby-1": "Boxe anglaise",
+"hobby-2": "Fitness",
+"hobby-3": "Basketball",
+"hobby-4": "Échecs",
+
 "profile-title": "Profil",
 
 "profile-text":
@@ -96,13 +103,13 @@ en: {
 
 "contact-title": "Contact",
 
-"contact-email": "Email: florian.carusone@hotmail.com",
+"contact-email": "Email : florian.carusone@hotmail.com",
 
-"contact-phone": "Phone: 077 447 52 74",
+"contact-phone": "Phone : 077 447 52 74",
 
-"contact-address": "Address: La Sarraz, VD",
+"contact-address": "Address : La Sarraz, VD",
 
-"contact-linkedin": "LinkedIn:",
+"contact-linkedin": "LinkedIn :",
 
 "contact-linkedin-link": "View my profile",
 
@@ -129,6 +136,13 @@ en: {
 "lang-en": "🇬🇧 English — B2",
 
 "lang-de": "🇩🇪 German — B2",
+
+"hobbies-title": "Hobbies",
+
+"hobby-1": "Boxing",
+"hobby-2": "Fitness",
+"hobby-3": "Basketball",
+"hobby-4": "Chess",
 
 "profile-title": "Profile",
 
@@ -182,11 +196,11 @@ de: {
 
 "contact-title": "Kontakt",
 
-"contact-email": "Email: florian.carusone@hotmail.com",
+"contact-email": "Email : florian.carusone@hotmail.com",
 
-"contact-phone": "Telefon: 077 447 52 74",
+"contact-phone": "Telefon : 077 447 52 74",
 
-"contact-address": "Adresse: La Sarraz, VD",
+"contact-address": "Adresse : La Sarraz, VD",
 
 "contact-linkedin": "LinkedIn:",
 
@@ -215,6 +229,13 @@ de: {
 "lang-en": "🇬🇧 Englisch — B2",
 
 "lang-de": "🇩🇪 Deutsch — B2",
+
+"hobbies-title": "Hobbys",
+
+"hobby-1": "Boxen",
+"hobby-2": "Fitness",
+"hobby-3": "Basketball",
+"hobby-4": "Schach",
 
 "profile-title": "Profil",
 
